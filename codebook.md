@@ -1,5 +1,13 @@
 # Codebook
 
+## Dataset variables
+
+Only some columns have been kept from the original dataset. Every measurement has some statistics attached to it such as its mean value, max value, entropy, etc.
+
+For the project, it is required to only keep the mean and std values. As specified in the file feature_info.txt, mean corresponds to mean() and std to std(). Thus the final dataset will contain the average value of the mean and std of every measurement.
+
+On top of that, the goal is to get these values for every subject and activity, so the activity and the subject are also present in the dataset.
+
 ## Description of original variables
 
 The data itself has not be changed, the units used are the same than the original dataset.
@@ -38,11 +46,3 @@ tBodyAccMean
 tBodyAccJerkMean
 tBodyGyroMean
 tBodyGyroJerkMean
-
-## Dataset variables
-
-Only some columns have been kept from the original dataset. Every measurement has some statistics attached to it such as its mean value, max value, entropy, etc.
-
-For the project, it is required to only keep the mean and std values. As specified in the file feature_info.txt, mean corresponds to mean() and std to std(). Thus the final dataset will contain the average value of the mean and std of every measurement.
-
-On top of that, the goal is to get these values for every subject and activity, so the activity and the subject are also present in the dataset.
