@@ -43,4 +43,4 @@ Then the function gets the average value of every column.
 
 ## Need more info?
 
-The code is properly commented line by line and was made in the more self explanatory way.
+The code is properly commented line by line and was made in the most self explanatory way.
