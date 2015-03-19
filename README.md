@@ -9,9 +9,9 @@ https://class.coursera.org/getdata-012/forum/thread?thread_id=9
 
 The script uses 2 functions:
 	
-	* loadData that reads the different files, merges and joins them together in one nice and tidy data frame
+	- loadData that reads the different files, merges and joins them together in one nice and tidy data frame
 	
-	* featureAvg that calculates the average value of each column
+	- featureAvg that calculates the average value of each column
 
 Finally the result is written in a text file ready to be exported!
 
