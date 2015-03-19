@@ -15,7 +15,7 @@ The script uses 2 functions:
 Finally the result is written in a text file ready to be exported!
 
 
-### loadData
+#### loadData
 
 This function reads files in the fastest way, the feature dataset are pretty large so a library optimized for large file is used (LaF).
 GettingAndCleaningData
@@ -27,7 +27,7 @@ Subject IDs and activity IDs are added as new columns to the feature dataset. Th
 Then columns are filtered to only keep, mean and std for every measurement (cf codebook for more details) along with the subject and activity.
 
 
-### featureAvg
+#### featureAvg
 
 Once the dataset is tidy and contains only the required variables, we need to sort it.
 To do that, the data set is grouped by activity and subject.
